@@ -13,3 +13,5 @@ public class TestJni {
     public native void java_close();
     public native int java_ioctl(int cmd);
 }
+
+//loadLibrary 就是调用库。安卓系统中库都在sys/lib目录下
